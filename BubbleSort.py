@@ -7,8 +7,9 @@ def bubble_sort(lista):  # definindo a função, colocando como parâmetro a lis
 
     for i in range(fim-1, 0, -1): # fazemos um range que vai de trás para frente; we make a range from the end to the beginning. 
         for j in range(i):
-            if lista[j] > lista[j+1]:
-                lista[j], lista[j+1] = lista[j+1], lista[j]
-                print (lista)
+            if lista[j] > lista[j+1]:  #  caso o elemento indexado em j seja maior que o elemento no índice seguinte... (if the element indexed in j is greater than the element in the next index...) 
+
+                lista[j], lista[j+1] = lista[j+1], lista[j]  #  trocamos o elemento j pelo elemento no índice seguinte. (we replace the element j with the element in the following index.)
+                print (lista)  #  imprimimos a lista que estará em ordem crescente após a finalização do primeiro for.(we print the list that will be in ascending order after the completion of the first for loop)  
 
     return lista
