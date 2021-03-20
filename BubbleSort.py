@@ -5,7 +5,7 @@ def bubble_sort(lista):  # definindo a função, colocando como parâmetro a lis
 
     fim = len(lista) # colocando em uma variável o tamanho da lista; placing the list size in a variable; 
 
-    for i in range(fim-1, 0, -1):
+    for i in range(fim-1, 0, -1): # fazemos um range que vai de trás para frente; we make a range from the end to the beginning. 
         for j in range(i):
             if lista[j] > lista[j+1]:
                 lista[j], lista[j+1] = lista[j+1], lista[j]
