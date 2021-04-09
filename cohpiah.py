@@ -1,3 +1,8 @@
+# This code identifies plagiarism between texts. 
+# For this, metrics used by professionals to identify plagiarism, such as the Hapax Legomana ratio, are calculated from the text data.  
+# Esse código identifica plágio entre textos.
+# Para isso, métricas utilizadas por profissionais para identificar os plágios, como a Razão Hapax Legomana, são calculadas a partir dos dados dos textos.
+
 import re
 
 
