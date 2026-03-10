@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # stylometric-plagiarism-detector
 
 A command-line tool that detects which author, among a set of texts, is most likely infected by COH-PIAH — a fictional linguistic disease from an introductory MIT/MIT-inspired programming course. The detection is based on comparing stylometric signatures extracted from each text.
@@ -103,3 +104,8 @@ O autor do texto 2 está infectado com COH-PIAH
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+=======
+# USP-Project
+
+Small codes, developed in the programming course at the University of São Paulo. Each code has a different purpose.
+>>>>>>> 0062c653d56e925499dbf7165b0b35eeeaeb8d55
